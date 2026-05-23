@@ -1,0 +1,25 @@
+﻿.progress-card {
+  border-radius: 14px;
+  border: 1px solid var(--color-border);
+  padding: 16px;
+  background: linear-gradient(145deg, #ffffff, #f5f9ff);
+}
+
+.progress-card__label {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.progress-card__value {
+  margin: 8px 0 4px;
+  font-size: 28px;
+}
+
+.progress-card__description {
+  margin: 0;
+  color: #3f5f8e;
+}

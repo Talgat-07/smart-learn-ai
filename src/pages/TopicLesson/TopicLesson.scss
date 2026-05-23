@@ -1,0 +1,90 @@
+﻿.topic-lesson-page {
+  display: grid;
+  gap: 14px;
+}
+
+.topic-lesson-card {
+  padding: 18px;
+}
+
+.topic-lesson-card__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.topic-lesson-card h3 {
+  margin: 16px 0 8px;
+}
+
+.topic-lesson-card p {
+  margin: 0;
+  color: #2d4d79;
+}
+
+.topic-lesson-card ul {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 6px;
+}
+
+.topic-lesson-card blockquote {
+  margin: 16px 0 0;
+  border-left: 4px solid #5c90db;
+  background: #edf5ff;
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: #17407a;
+}
+
+.topic-lesson-card__actions {
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.topic-lesson-related {
+  padding: 18px;
+}
+
+.topic-lesson-related h3 {
+  margin: 0 0 10px;
+}
+
+.topic-lesson-related ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.topic-lesson-related li {
+  border-radius: 12px;
+  border: 1px solid #dbe8ff;
+  background: #f7fbff;
+  padding: 12px;
+  display: grid;
+  gap: 8px;
+}
+
+.topic-lesson-related li span {
+  color: #3d5f8f;
+}
+
+.topic-lesson-related li button {
+  width: fit-content;
+}
+
+.topic-lesson-empty {
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+  padding: 22px;
+}
+
+.topic-lesson-empty p {
+  color: var(--color-text-muted);
+}

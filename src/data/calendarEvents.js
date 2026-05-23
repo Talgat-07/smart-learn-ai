@@ -1,0 +1,32 @@
+﻿export const calendarEvents = [
+  {
+    id: 'event-base-1',
+    title: 'Вводная встреча по учебной платформе',
+    date: '2026-05-18',
+    type: 'test',
+    status: 'completed',
+    relatedTaskId: null,
+    relatedTopicId: null,
+    grade: 88,
+  },
+  {
+    id: 'event-base-2',
+    title: 'Промежуточный чек по адаптивной верстке',
+    date: '2026-05-20',
+    type: 'lesson',
+    status: 'in_progress',
+    relatedTaskId: null,
+    relatedTopicId: 'css-adaptive',
+    grade: null,
+  },
+  {
+    id: 'event-base-3',
+    title: 'Плановый тест по JavaScript',
+    date: '2026-05-29',
+    type: 'test',
+    status: 'planned',
+    relatedTaskId: null,
+    relatedTopicId: 'js-basics',
+    grade: null,
+  },
+]

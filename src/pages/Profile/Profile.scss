@@ -1,0 +1,78 @@
+﻿.profile-page {
+  display: grid;
+  gap: 16px;
+}
+
+.profile-notice {
+  margin: 0;
+  border-radius: 12px;
+  border: 1px solid #c8ddff;
+  background: #eaf4ff;
+  color: #1b4f8f;
+  padding: 10px 12px;
+}
+
+.profile-main {
+  padding: 18px;
+  display: grid;
+  gap: 12px;
+}
+
+.profile-main h3 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.profile-main p {
+  margin: 10px 0 0;
+}
+
+.profile-progress-track {
+  margin-top: 6px;
+}
+
+.profile-progress-track p {
+  margin: 0 0 8px;
+  font-weight: 700;
+}
+
+.profile-metrics {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.profile-recommendation {
+  border-radius: 16px;
+  border: 1px solid #cde1ff;
+  background: #eaf3ff;
+  padding: 16px;
+}
+
+.profile-recommendation h3 {
+  margin: 0;
+}
+
+.profile-recommendation p {
+  margin: 8px 0 0;
+  color: #123f79;
+}
+
+.profile-activities {
+  padding: 16px;
+}
+
+.profile-activities h3 {
+  margin: 0 0 10px;
+}
+
+.profile-activities ul {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 8px;
+}
+
+.profile-activities li {
+  color: #2b4974;
+}

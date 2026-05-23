@@ -1,0 +1,45 @@
+﻿.direction-card {
+  border-radius: 16px;
+  padding: 20px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-soft);
+  display: grid;
+  gap: 14px;
+}
+
+.direction-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.direction-card__top h3 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.direction-card__description {
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+.direction-card__meta {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 6px;
+  color: #1d416f;
+}
+
+.direction-card__progress p {
+  margin: 0 0 8px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.direction-card__button {
+  width: fit-content;
+}

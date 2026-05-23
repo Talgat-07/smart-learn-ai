@@ -1,0 +1,56 @@
+﻿.tasks-page {
+  display: grid;
+  gap: 16px;
+}
+
+.tasks-filter {
+  padding: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.tasks-filter label {
+  font-weight: 700;
+}
+
+.tasks-filter select {
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  padding: 8px 10px;
+}
+
+.tasks-filter input {
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  padding: 8px 10px;
+  min-width: 220px;
+}
+
+.tasks-notice {
+  margin: 0;
+  border-radius: 12px;
+  border: 1px solid #c7defc;
+  background: #eaf4ff;
+  color: #1b4f8f;
+  padding: 10px 12px;
+}
+
+.tasks-list {
+  display: grid;
+  gap: 12px;
+}
+
+.tasks-empty {
+  padding: 18px;
+}
+
+.tasks-empty h3 {
+  margin: 0;
+}
+
+.tasks-empty p {
+  margin: 8px 0 0;
+  color: var(--color-text-muted);
+}

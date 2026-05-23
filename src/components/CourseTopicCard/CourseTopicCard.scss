@@ -1,0 +1,39 @@
+﻿.topic-card {
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-soft);
+  padding: 18px;
+  display: grid;
+  gap: 14px;
+}
+
+.topic-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.topic-card__top h3 {
+  margin: 0;
+  font-size: 21px;
+}
+
+.topic-card__description {
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+.topic-card__tasks {
+  margin: 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 6px;
+}
+
+.topic-card__actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}

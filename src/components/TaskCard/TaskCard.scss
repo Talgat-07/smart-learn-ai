@@ -1,0 +1,96 @@
+﻿.task-card {
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-soft);
+  padding: 18px;
+  display: grid;
+  gap: 12px;
+}
+
+.task-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.task-card__top h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.task-card__description {
+  margin: 8px 0 0;
+  color: var(--color-text-muted);
+}
+
+.task-card__meta {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 6px;
+}
+
+.task-card__label {
+  font-weight: 700;
+}
+
+.task-card__answer {
+  width: 100%;
+  min-height: 100px;
+  resize: vertical;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 12px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.task-card__answer:focus {
+  border-color: #75a5ea;
+}
+
+.task-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.task-card__error {
+  margin: 0;
+  color: #9f1e1e;
+  font-weight: 700;
+}
+
+.task-card__feedback {
+  border-radius: 12px;
+  background: #eff6ff;
+  border: 1px solid #cde1ff;
+  padding: 12px;
+  color: #183c72;
+}
+
+.task-card__grade {
+  margin: 0;
+  font-weight: 700;
+  color: #1a7e45;
+}
+
+.task-card__history h4 {
+  margin: 0 0 8px;
+}
+
+.task-card__history ul {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 6px;
+}
+
+.task-card__history li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

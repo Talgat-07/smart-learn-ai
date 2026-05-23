@@ -1,0 +1,84 @@
+﻿.app-header {
+  margin: 24px 24px 0;
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at top right, rgba(80, 162, 255, 0.35), transparent 38%),
+    linear-gradient(135deg, #103268, #1f5cb4 54%, #3f86de);
+  padding: 24px 28px;
+  color: #f4f8ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  box-shadow: 0 20px 35px rgba(15, 45, 92, 0.28);
+}
+
+.app-header__label {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  font-size: 11px;
+  margin: 0;
+  opacity: 0.88;
+}
+
+.app-header__title {
+  margin: 8px 0 0;
+  font-family: var(--font-headings);
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.05;
+}
+
+.app-header__actions {
+  display: grid;
+  gap: 12px;
+}
+
+.app-header__direction {
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+  padding: 10px 14px;
+  font-size: 13px;
+  min-width: 280px;
+  display: grid;
+  gap: 4px;
+}
+
+.app-header__direction strong {
+  font-size: 16px;
+}
+
+.app-header__direction small {
+  opacity: 0.92;
+}
+
+.app-header__button {
+  text-align: center;
+  border-radius: 12px;
+  color: #13346a;
+  font-weight: 700;
+  background: #f5f9ff;
+  padding: 10px 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.app-header__button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 22px rgba(10, 33, 68, 0.23);
+}
+
+@media (max-width: 1120px) {
+  .app-header {
+    margin: 16px 16px 0;
+    flex-direction: column;
+  }
+
+  .app-header__actions {
+    width: 100%;
+  }
+
+  .app-header__direction {
+    min-width: 0;
+  }
+}

@@ -1,0 +1,55 @@
+﻿.learning-plan-page {
+  display: grid;
+  gap: 18px;
+}
+
+.learning-plan-toolbar {
+  padding: 16px;
+  display: grid;
+  gap: 12px;
+}
+
+.learning-plan-toolbar label {
+  font-weight: 700;
+}
+
+.learning-plan-toolbar select {
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  padding: 9px 12px;
+  max-width: 340px;
+}
+
+.learning-plan-progress p {
+  margin: 0 0 8px;
+  font-weight: 700;
+}
+
+.learning-plan-topics {
+  display: grid;
+  gap: 12px;
+}
+
+.learning-plan-notice {
+  margin: 0;
+  border-radius: 12px;
+  background: #eaf4ff;
+  border: 1px solid #c8ddff;
+  color: #1c4e90;
+  padding: 10px 12px;
+}
+
+.empty-state {
+  border: 1px solid var(--color-border);
+  border-radius: 18px;
+  padding: 22px;
+}
+
+.empty-state h2 {
+  margin: 0;
+}
+
+.empty-state p {
+  color: var(--color-text-muted);
+  margin: 10px 0 16px;
+}
